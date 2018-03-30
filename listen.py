@@ -5,4 +5,4 @@ import subprocess
 if __name__ == '__main__':
     while True:
         time.sleep(20)
-        subprocess.call([['python knockknock.py']])
+        subprocess.call(['python knockknock.py'])
