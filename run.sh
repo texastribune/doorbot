@@ -1,5 +1,4 @@
 #!/bin/bash
 
-source ../doorbot-env/bin/activate
-sudo pip install -r requirements.txt
+# will be run in virtualenv with updated requirements
 python knockknock.py
